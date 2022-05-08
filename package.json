@@ -16,13 +16,18 @@
     "@strapi/strapi": "4.1.9",
     "better-sqlite3": "7.4.6",
     "pg": "^8.7.3",
-    "pg-connection-string": "^2.5.0"
+    "pg-connection-string": "^2.5.0",
+    "@strapi/plugin-graphql": "^4.0.5",
+    "fs-extra": "^10.0.0",
+    "lodash.set": "^4.3.2",
+    "mime-types": "^2.1.27"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Alifian Mahardhika"
   },
   "strapi": {
-    "uuid": "1623bc2a-7b12-4dc1-baaf-d77b967b6782"
+    "uuid": "1623bc2a-7b12-4dc1-baaf-d77b967b6782",
+    "template": "blog"
   },
   "engines": {
     "node": ">=12.x.x <=16.x.x",
